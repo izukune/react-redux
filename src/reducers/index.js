@@ -1,4 +1,4 @@
-import combineReducer from "redux";
+import { combineReducers } from "redux";
 import count from "./count";
 
-export default combineReducer({ count });
+export default combineReducers({ count });
